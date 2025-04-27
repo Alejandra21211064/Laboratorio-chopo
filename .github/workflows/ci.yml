@@ -24,3 +24,15 @@ jobs:
 
     - name: Ejecutar pruebas
       run: npm test
+
+    - name: Descargar Scanner SonarCloud
+      run: |
+        curl -sSLo sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-5.0.1.3006-linux.zip
+        unzip sonar-scanner.zip
+        mv sonar-scanner-5.0.1.3006-linux sonar-scanner
+
+    - name: Ejecutar análisis SonarCloud
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      run: |
+        ./sonar-scanner/bin/sonar-scanner
