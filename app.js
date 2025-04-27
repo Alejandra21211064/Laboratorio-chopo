@@ -1,3 +1,4 @@
+module.exports = { Componente, PruebaIndividual, PaquetePruebas };
 class Componente {
     constructor(nombre, costo = 0) {
         this.nombre = nombre;
