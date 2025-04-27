@@ -17,7 +17,6 @@ class Componente {
         return div;
     }
 }
-module.exports = { Componente, PruebaIndividual, PaquetePruebas };
 class PruebaIndividual extends Componente {
     constructor(nombre, costo) {
         super(nombre, costo);
@@ -47,6 +46,7 @@ class PaquetePruebas extends Componente {
         return div;
     }
 }
+module.exports = { Componente, PruebaIndividual, PaquetePruebas };
 
         // Crear catálogo
         const catalogo = (() => {
