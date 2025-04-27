@@ -1,4 +1,3 @@
-module.exports = { Componente, PruebaIndividual, PaquetePruebas };
 class Componente {
     constructor(nombre, costo = 0) {
         this.nombre = nombre;
@@ -18,6 +17,7 @@ class Componente {
         return div;
     }
 }
+module.exports = { Componente, PruebaIndividual, PaquetePruebas };
 class PruebaIndividual extends Componente {
     constructor(nombre, costo) {
         super(nombre, costo);
