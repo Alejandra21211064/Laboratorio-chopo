@@ -1,4 +1,3 @@
-module.exports = { Componente, PruebaIndividual, PaquetePruebas };
 class Componente {
     constructor(nombre, costo = 0) {
         this.nombre = nombre;
@@ -47,7 +46,7 @@ class PaquetePruebas extends Componente {
         return div;
     }
 }
-
+module.exports = { Componente, PruebaIndividual, PaquetePruebas };
         // Crear catálogo
         const catalogo = (() => {
             const crearCatalogo = () => {
