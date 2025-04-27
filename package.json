@@ -1,0 +1,15 @@
+{
+  "name": "Laboratorio-chopo",
+  "version": "1.0.0",
+  "description": "Sistema de laboratorio médico",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Alejandra Ortega Hernandez",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
