@@ -54,3 +54,35 @@ GitHub Actions
 
 SonarCloud
 
+# 📊 Informe de Métricas de Calidad
+
+## Revisión en SonarCloud
+
+- **Fiabilidad:** A (1 issue leve)
+- **Seguridad:** A (1 issue leve)
+- **Revisión de Seguridad:** > 80%
+- **Cobertura de Código:** < 30%
+- **Duplicaciones:** < 3%
+- **Tamaño del Código:** < 1k líneas
+
+## Análisis
+
+- El proyecto mantiene un **alto nivel de fiabilidad y seguridad**, con calificación A.
+- No existen problemas graves de vulnerabilidades o errores críticos.
+- La **duplicación de código es mínima**, manteniéndose bajo estándares óptimos (< 3%).
+
+## Áreas de mejora
+
+- **Cobertura de código**: Actualmente es inferior al 30%.  
+  Se sugiere agregar más pruebas unitarias para cubrir más funciones y casos de uso, especialmente en métodos de interfaz de usuario (DOM).
+
+## Acciones Correctivas
+
+- Añadir más pruebas en componentes interactivos.
+- Mejorar los casos de prueba de paquetes y funciones de ticket.
+
+## Conclusión
+
+Las métricas indican que el sistema es **estable, seguro** y con **buena calidad de código**.  
+Sólo se recomienda **incrementar la cobertura de pruebas** para garantizar una mayor robustez a largo plazo.
+
