@@ -67,6 +67,7 @@ module.exports = { Componente, PruebaIndividual, PaquetePruebas };
                 catalogo.agregarHijo(perfilPremium);
                 catalogo.agregarHijo(embarazo);
                 catalogo.agregarHijo(new PruebaIndividual("Prueba COVID-19", 1000));
+                catalogo.agregarHijo(new PruebaIndividual("Perfil Renal", 500));
 
                 return catalogo;
             };
