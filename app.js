@@ -133,6 +133,8 @@ module.exports = { Componente, PruebaIndividual, PaquetePruebas };
                 </ul>
                 <p>Teléfono: 55 1234 5678</p>
             `;
+            //Alerta de confirmacion de ticket generado
+            alert('¡Ticket generado exitosamente!');
         }
 
         function ocultarCatalogo() {
