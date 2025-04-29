@@ -57,7 +57,7 @@ module.exports = { Componente, PruebaIndividual, PaquetePruebas };
 
                 const perfilPremium = new PaquetePruebas("Perfil Premium");
                 perfilPremium.agregarHijo(perfilBasico);
-                perfilPremium.agregarHijo(new PruebaIndividual("Perfil Tiroideo", 800));
+                perfilPremium.agregarHijo(new PruebaIndividual("Perfil Tiroideo", 900));
                 perfilPremium.agregarHijo(new PruebaIndividual("Prueba de VIH", 450));
 
                 const embarazo = new PaquetePruebas("Control de Embarazo");
