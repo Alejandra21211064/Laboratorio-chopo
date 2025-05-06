@@ -70,6 +70,7 @@ module.exports = { Componente, PruebaIndividual, PaquetePruebas };
                 catalogo.agregarHijo(new PruebaIndividual("Perfil Renal", 699));
                 catalogo.agregarHijo(new PruebaIndividual("Examen General de Orina, 600"));
                 catalogo.agregarHijo(new PruebaIndividual("Examen General de sangre, 400"))
+                perfilPremium.agregarHijo(new PruebaIndividual("Prueba de orina", 350));
 
                 return catalogo;
             };
